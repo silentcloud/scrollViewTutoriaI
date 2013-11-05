@@ -7,6 +7,8 @@
 //
 
 #import "ScrollViewTestAppDelegate.h"
+#import "ViewController.h"
+#import "MainViewController.h"
 
 @implementation ScrollViewTestAppDelegate
 
@@ -14,9 +16,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    ViewController *viewControl = [[ViewController alloc]init];
+    self.window.rootViewController = viewControl;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+-(void)loadMainView
+{
+    _homeView = [[MainViewController alloc] init];
+    [self.window addSubview:_homeView.view];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

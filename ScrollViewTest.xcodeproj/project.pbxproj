@@ -19,6 +19,16 @@
 		512D35C01824F62C009D67BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512D35A81824F62C009D67BA /* UIKit.framework */; };
 		512D35C81824F62C009D67BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 512D35C61824F62C009D67BA /* InfoPlist.strings */; };
 		512D35CA1824F62C009D67BA /* ScrollViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D35C91824F62C009D67BA /* ScrollViewTestTests.m */; };
+		512D35D51824F65D009D67BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D35D41824F65D009D67BA /* ViewController.m */; };
+		512D35DF1824F824009D67BA /* guide01.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35D71824F824009D67BA /* guide01.png */; };
+		512D35E01824F824009D67BA /* guide01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35D81824F824009D67BA /* guide01@2x.png */; };
+		512D35E11824F824009D67BA /* guide02.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35D91824F824009D67BA /* guide02.png */; };
+		512D35E21824F824009D67BA /* guide02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35DA1824F824009D67BA /* guide02@2x.png */; };
+		512D35E31824F824009D67BA /* guide03.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35DB1824F824009D67BA /* guide03.png */; };
+		512D35E41824F824009D67BA /* guide03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35DC1824F824009D67BA /* guide03@2x.png */; };
+		512D35E51824F824009D67BA /* guide04.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35DD1824F824009D67BA /* guide04.png */; };
+		512D35E61824F824009D67BA /* guide04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512D35DE1824F824009D67BA /* guide04@2x.png */; };
+		512D35E9182514E9009D67BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D35E8182514E9009D67BA /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,18 @@
 		512D35C51824F62C009D67BA /* ScrollViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		512D35C71824F62C009D67BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		512D35C91824F62C009D67BA /* ScrollViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestTests.m; sourceTree = "<group>"; };
+		512D35D31824F65D009D67BA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		512D35D41824F65D009D67BA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		512D35D71824F824009D67BA /* guide01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guide01.png; path = image/guide01.png; sourceTree = "<group>"; };
+		512D35D81824F824009D67BA /* guide01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guide01@2x.png"; path = "image/guide01@2x.png"; sourceTree = "<group>"; };
+		512D35D91824F824009D67BA /* guide02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guide02.png; path = image/guide02.png; sourceTree = "<group>"; };
+		512D35DA1824F824009D67BA /* guide02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guide02@2x.png"; path = "image/guide02@2x.png"; sourceTree = "<group>"; };
+		512D35DB1824F824009D67BA /* guide03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guide03.png; path = image/guide03.png; sourceTree = "<group>"; };
+		512D35DC1824F824009D67BA /* guide03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guide03@2x.png"; path = "image/guide03@2x.png"; sourceTree = "<group>"; };
+		512D35DD1824F824009D67BA /* guide04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guide04.png; path = image/guide04.png; sourceTree = "<group>"; };
+		512D35DE1824F824009D67BA /* guide04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "guide04@2x.png"; path = "image/guide04@2x.png"; sourceTree = "<group>"; };
+		512D35E7182514E9009D67BA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		512D35E8182514E9009D67BA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +129,15 @@
 		512D35AA1824F62C009D67BA /* ScrollViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				512D35D61824F7E5009D67BA /* image */,
 				512D35B31824F62C009D67BA /* ScrollViewTestAppDelegate.h */,
 				512D35B41824F62C009D67BA /* ScrollViewTestAppDelegate.m */,
+				512D35D31824F65D009D67BA /* ViewController.h */,
+				512D35D41824F65D009D67BA /* ViewController.m */,
 				512D35B61824F62C009D67BA /* Images.xcassets */,
 				512D35AB1824F62C009D67BA /* Supporting Files */,
+				512D35E7182514E9009D67BA /* MainViewController.h */,
+				512D35E8182514E9009D67BA /* MainViewController.m */,
 			);
 			path = ScrollViewTest;
 			sourceTree = "<group>";
@@ -142,6 +169,21 @@
 				512D35C61824F62C009D67BA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512D35D61824F7E5009D67BA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				512D35D71824F824009D67BA /* guide01.png */,
+				512D35D81824F824009D67BA /* guide01@2x.png */,
+				512D35D91824F824009D67BA /* guide02.png */,
+				512D35DA1824F824009D67BA /* guide02@2x.png */,
+				512D35DB1824F824009D67BA /* guide03.png */,
+				512D35DC1824F824009D67BA /* guide03@2x.png */,
+				512D35DD1824F824009D67BA /* guide04.png */,
+				512D35DE1824F824009D67BA /* guide04@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +262,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512D35E11824F824009D67BA /* guide02.png in Resources */,
+				512D35E61824F824009D67BA /* guide04@2x.png in Resources */,
+				512D35E21824F824009D67BA /* guide02@2x.png in Resources */,
+				512D35E31824F824009D67BA /* guide03.png in Resources */,
+				512D35DF1824F824009D67BA /* guide01.png in Resources */,
+				512D35E41824F824009D67BA /* guide03@2x.png in Resources */,
 				512D35AF1824F62C009D67BA /* InfoPlist.strings in Resources */,
+				512D35E51824F824009D67BA /* guide04.png in Resources */,
+				512D35E01824F824009D67BA /* guide01@2x.png in Resources */,
 				512D35B71824F62C009D67BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512D35D51824F65D009D67BA /* ViewController.m in Sources */,
 				512D35B51824F62C009D67BA /* ScrollViewTestAppDelegate.m in Sources */,
 				512D35B11824F62C009D67BA /* main.m in Sources */,
+				512D35E9182514E9009D67BA /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

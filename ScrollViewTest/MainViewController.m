@@ -10,4 +10,16 @@
 
 @implementation MainViewController
 
+
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 30)];
+    label.text = @"Main view";
+    
+    [self.view addSubview:label];
+    
+}
+
 @end
